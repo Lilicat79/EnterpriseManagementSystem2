@@ -31,7 +31,7 @@ const MainPage = ()=> {
             <div className="MainPage">
                 <Layout style={{ minHeight: '100vh' }}>
                 <Sider collapsible collapsed={collapsed} onCollapse={()=>onCollapse}>
-                <div className="logo" />
+                <div className="menu-top" style={{ minHeight: '6vh' }}>企业管理系统</div>
                 <Menu theme="dark" defaultSelectedKeys={['0']}  mode="inline">
                     {
                         routers.map((item,index)=>{
